@@ -1,0 +1,7 @@
+{
+  "name": "Uni_Project",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
