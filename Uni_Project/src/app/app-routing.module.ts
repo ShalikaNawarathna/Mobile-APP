@@ -6,7 +6,7 @@ const routes: Routes = [
     path: '',
     loadChildren: () => import('./tabs/tabs.module').then(m => m.TabsPageModule)
   },
-  {
+  /*{
     path: 'home1',
     loadChildren: () => import('./home/home.module').then( m => m.HomePageModule)
   },
@@ -17,7 +17,7 @@ const routes: Routes = [
   {
     path: 'my-listings-add',
     loadChildren: () => import('./my-listings-add/my-listings-add.module').then( m => m.MyListingsAddPageModule)
-  },
+  },*/
   {
     path: 'profile',
     loadChildren: () => import('./profile/profile.module').then( m => m.ProfilePageModule)
